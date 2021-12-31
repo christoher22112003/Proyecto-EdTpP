@@ -87,7 +87,7 @@ Agregar y Cargar en el HEAD los cambios realizados
 ```
 De haber conflictos los muestra
 ```ssh
-	git commit -a 
+	git commit -a
 ```
 Agregar al ultimo commit, este no se muestra como un nuevo commit en los logs. Se puede especificar un nuevo mensaje
 ```ssh

@@ -1,7 +1,8 @@
 Extensiones que se necesitan para el proyecto-EdTpP
 
-1.Python by Microsoft
-2.Python Docstring Generator
-3.Code Runner
-4.Trailing Spaces (Coloreado en todas las separaciones de identados o TAB)
-5.Indent Rainbow
+1.Pylance
+2.Python by Microsoft
+3.Python Docstring Generator
+4.Code Runner
+5.Trailing Spaces (Coloreado en todas las separaciones de identados o TAB)
+6.Indent Rainbow
