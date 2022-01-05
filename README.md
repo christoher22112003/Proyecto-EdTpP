@@ -1,4 +1,4 @@
-# Proyecto-EdTpP (Envio de tarear por Python)
+# Proyecto-endtpP (Envio de tarear por Python)
 
 _Este proyecto se esta desarrollando por la necesidad de poder automatizar procesos los cuales me dan mucha vagueria de realizar y por la misma razon se me hace mas facil
 hacer un programa en una semana. Solamente lo hago por no tener nada que hacer y por simple diversion._

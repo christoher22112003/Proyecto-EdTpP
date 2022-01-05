@@ -1,4 +1,4 @@
-Extensiones que se necesitan para el proyecto-EdTpP
+Extensiones que se necesitan para el proyecto-endtpP
 
 1.Pylance
 2.Python by Microsoft

@@ -84,8 +84,7 @@ print("""
 print("""
   *************************************************
 *****  Bienvenido al script de envio de tareas  *****
-  _________________________________________________
-""")
+  _________________________________________________""")
 
 def menu():
   print("Procesos que se utilizan para el envio de tareas")
@@ -96,57 +95,60 @@ def menu():
   print("\t5 - Salir")
 while True:
   menu()
-  rm1 = input(" ¿ Que proceso necesita hacer ? >>>   ")
-  if rm1=="1":
-    print(" ")
-    rm1_1 = input("Has pulsado la opcion 1...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
-    if rm1_1=="s":
-      print("rm1_1s")
+
+  edt = input(" ¿ Que proceso necesita hacer ? >>>   ")
+
+  if edt=="1":
+    edt_1 = input("Has pulsado la opcion 1...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+
+    if edt_1=="s":
+      print("edt_1s")
       input("Precione una tecla")
     else:
-      print("rm1_1n")
+      print("edt_1n")
       input("Precione una tecla")
+
   else:
-    if rm1=="2":
-      print("")
-      rm1_2 = input("Has pulsado la opcion 2...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
-      if rm1_2=="s":
-        print("rm1_2s")
+
+    if edt=="2":
+      edt_2 = input("Has pulsado la opcion 2...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+
+      if edt_2=="s":
+        print("edt_2s")
         input("Precione una tecla>>>  ")
       else:
-        print("rm1_2n")
+        print("edt_2n")
         input("Precione una tecla>>>  ")
+
     else:
-      if rm1=="3":
-        print("")
-        rm1_3 = input("Has pulsado la opcion 3...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
-        if rm1_3=="s":
-          print("rm1_3s")
+
+      if edt=="3":
+        edt_3 = input("Has pulsado la opcion 3...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+
+        if edt_3=="s":
+          print("edt_3s")
           input("Precione una tecla>>>  ")
         else:
-          print("rm1_3n")
+          print("edt_3n")
           input("Precione una tecla>>>  ")
+
       else:
-        if rm1=="4":
-          print("")
-          rm1_4 = input("Has pulsado la opcion 4...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
-          if rm1_4=="s":
-            print("rm1_4s")
+
+        if edt=="4":
+          edt_4 = input("Has pulsado la opcion 4...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+
+          if edt_4=="s":
+            print("edt_4s")
             input("Precione una tecla>>>  ")
           else:
-            print("rm1_4n")
+            print("edt_4n")
             input("Precione una tecla>>>  ")
+
         else:
-          if rm1=="2":
-            print("")
-            rm1_5 = input("Has pulsado la opcion 5...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
-            if rm1_5=="s":
-              print("rm1_5s")
+
+          if edt=="2":
+            edt_5 = input("Has pulsado la opcion 5...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+
+            if edt_5=="s":
+              print("edt_5s")
               input("Precione una tecla>>>  ")
-              break
-            else:
-              print("rm1_5n")
-              input("Precione una tecla>>>  ")
-          else:
-            print(" ")
-            input("No has pulsado ninguna opcion correcta>>> ")
