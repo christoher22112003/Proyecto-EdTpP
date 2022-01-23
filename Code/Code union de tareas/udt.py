@@ -1,9 +1,7 @@
-from ast import While
 import os
 import webbrowser as wb
 import time
 import pyautogui as pyto
-import pyautogui
 
 print("""
       ##   ##  ##   ##   ####     #####   ##   ##
@@ -153,7 +151,7 @@ while True:
             udt_5 = input("Has pulsado la opcion 5(Salir)...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
 
             if udt_5=="s":
-              print("Se cerrar el menu de Escaneo de tareas")
+              print("Se cerrar el menu de Union de tareas")
               exit()
             else:
               print("Se regresara al menu de Union de tareas")

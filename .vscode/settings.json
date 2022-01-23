@@ -10,5 +10,8 @@
     "python.testing.unittestEnabled": true,
     "python.testing.pytestArgs": [
         "."
+    ],
+    "python.analysis.extraPaths": [
+      "./Code/Code union de tareas"
     ]
 }
