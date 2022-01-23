@@ -47,20 +47,26 @@ while True:
     endt_1 = input("Has pulsado la opcion 1...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
 
     if endt_1=="s":
+      print("Se abrira el Envio de tareas por medio de one drive")
       wb.open_new(r'M:\Documents\Pasatiempos\Programacion\Proyecto-EdTpP\Code\Taskkill\tke.bat')
+      wb.open_new(r'M:\Documents\Pasatiempos\Programacion\Proyecto-EdTpP\Code\Code envio de tareas\endtod.py')
+      exit()
     else:
-      print("endt_1n")
+      print("Se regresara al menu de envio de tareas")
 
 
   else:
 
     if endt=="2":
-      endt_2 = input("Has pulsado la opcion 2...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+      endt_2 = input("Has pulsado la opcion 2(Envio por medio de correo electronico)...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
 
       if endt_2=="s":
+        print("Se abrira el envio de tareas por medio de correo electronico")
         wb.open_new(r'M:\Documents\Pasatiempos\Programacion\Proyecto-EdTpP\Code\Taskkill\tke.bat')
+        wb.open_new(r'M:\Documents\Pasatiempos\Programacion\Proyecto-EdTpP\Code\Code envio de tareas\endtce.py')
+        exit()
       else:
-        print("endt_2n")
+        print("Se regresara al menu de envio de tareas")
 
     else:
 
@@ -68,20 +74,22 @@ while True:
         endt_3 = input("Has pulsado la opcion 3...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
 
         if endt_3=="s":
-          print("endt_3s")
+          print("Se regresara al menu principal de Envio de tareas")
+          wb.open_new(r'M:\Documents\Pasatiempos\Programacion\Proyecto-EdTpP\Code\p_edtpp_M.py')
+          exit()
         else:
-          print("endt_3n")
+          print("Se regresara al menu de envio de tareas")
 
       else:
 
         if endt=="4":
-          endt_4 = input("Has pulsado la opcion 4...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
+          endt_4 = input("Has pulsado la opcion 4(Salir)...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
 
           if endt_1=="s":
-            print("endt_4s")
+            print("Se cerrar el menu de Envio de tareas")
             exit()
           else:
-            print("endt_4n")
+            print("Se regresara al menu de envio de tareas")
 
         else:
           input("No has pulsado ninguna opcion correcta>>> ")
