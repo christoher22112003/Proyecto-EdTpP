@@ -67,7 +67,7 @@ while True:
         on_3 = input("Has pulsado la opcion 3(Abrir todos los programas)...  \nPreciona <S> si deseas continuar o <N> si deseas seleccionar de nuevo el proceso a realizar>>>  ")
 
         if on_3=="s":
-          idce = "aklexysmuzo33@outlook.com"
+          idce = "ibeth.salto@estudiantes.edu.ec"
 
           print("""
             --------------------------------------
