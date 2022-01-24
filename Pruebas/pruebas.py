@@ -4,7 +4,6 @@ import pyautogui as pyto
 import time
 import sys
 
-# idce = input("Escriba el correo electronico de la profesora>>>   ") (Esta linea de codigo es si se envian a mas de una persona las tareas)
 idce = "aklexysmuzo33@outlook.com"
 
 print("""
